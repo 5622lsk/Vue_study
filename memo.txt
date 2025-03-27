@@ -1,0 +1,17 @@
+1. v-for반복문: 3번 반복
+<div v-for="작명 in 3" :key="작명">hi</div>
+html태그 안의 속성 데이터바인딩은 :data
+내용 데이터바인딩은 {{data}}
+
+2. 자료안의 데이터 갯수만큼 반복
+<div v-for="i in data" :key="i">{{ i }}</div>
+
+3. 이벤트핸들러 문법 onClick =>
+<div v-on:click="더하기 += 1"></div>
+또는
+<div @click=""></div>
+@mouseover @input 등등 ...
+
+4. 함수만들땐 함수 안에서 this.데이터명
+
+5. 조건문 v-if=""
